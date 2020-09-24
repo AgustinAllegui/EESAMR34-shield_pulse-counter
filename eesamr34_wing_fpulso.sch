@@ -470,12 +470,12 @@ Text Notes 4850 4050 0    129  ~ 26
 Filtro Pulsos\n
 Wire Wire Line
 	6700 5200 6400 5200
-Text Label 6700 5200 0    50   ~ 0
-PA27
 Text Label 9250 5000 0    50   ~ 0
 +3.3V
 Wire Wire Line
 	4900 2400 5150 2400
 Text Label 5100 2400 0    50   ~ 0
 +3.3V
+Text Label 6650 5200 0    50   ~ 0
+PA08
 $EndSCHEMATC
