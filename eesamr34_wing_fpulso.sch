@@ -463,7 +463,7 @@ Wire Notes Line
 Text Label 950  2650 2    50   ~ 0
 ADC6
 Text Notes 600  9250 0    50   ~ 0
-- Quitar R5.\n- Cortar la pista entre R5 y C6 \n   (Evita que la bateria pase por el regulador)\n- Quitar R3 (Desconecta el sensado de bateria original).
+- Quitar R5.\n- Quitar Q1 (Evita que la bateria pase por el regulador).\n- Quitar R3 (Desconecta el sensado de bateria original).
 Text Notes 600  8800 0    129  ~ 26
 Modificaciones en Carrier\n
 Wire Notes Line
@@ -741,9 +741,6 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf"
 	4    5100 7300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8600 6900
-NoConn ~ 8600 7400
-NoConn ~ 8600 7900
 NoConn ~ 9200 7900
 NoConn ~ 9200 7400
 NoConn ~ 9200 6900
@@ -756,6 +753,39 @@ F 1 "4069" H 2500 7076 50  0000 C CNN
 F 2 "" H 2500 6850 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf" H 2500 6850 50  0001 C CNN
 	5    2500 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F98C2FD
+P 8600 6900
+F 0 "#PWR?" H 8600 6650 50  0001 C CNN
+F 1 "GND" H 8605 6727 50  0000 C CNN
+F 2 "" H 8600 6900 50  0001 C CNN
+F 3 "" H 8600 6900 50  0001 C CNN
+	1    8600 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F98D849
+P 8600 7400
+F 0 "#PWR?" H 8600 7150 50  0001 C CNN
+F 1 "GND" H 8605 7227 50  0000 C CNN
+F 2 "" H 8600 7400 50  0001 C CNN
+F 3 "" H 8600 7400 50  0001 C CNN
+	1    8600 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F98E314
+P 8600 7900
+F 0 "#PWR?" H 8600 7650 50  0001 C CNN
+F 1 "GND" H 8605 7727 50  0000 C CNN
+F 2 "" H 8600 7900 50  0001 C CNN
+F 3 "" H 8600 7900 50  0001 C CNN
+	1    8600 7900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
