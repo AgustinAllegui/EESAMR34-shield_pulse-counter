@@ -397,12 +397,10 @@ NoConn ~ 2200 2750
 NoConn ~ 950  2750
 NoConn ~ 950  2550
 NoConn ~ 950  2350
-NoConn ~ 950  2250
+NoConn ~ 950  1950
 NoConn ~ 950  2150
 NoConn ~ 950  2050
 NoConn ~ 950  2450
-Text Label 5950 7050 0    50   ~ 0
-I2C_SDa
 Text Notes 600  950  0    129  ~ 26
 Shield Connection
 Wire Wire Line
@@ -788,4 +786,6 @@ F 3 "" H 8600 7900 50  0001 C CNN
 	1    8600 7900
 	1    0    0    -1  
 $EndComp
+Text Label 5950 7050 0    50   ~ 0
+SPI_MOSI
 $EndSCHEMATC
