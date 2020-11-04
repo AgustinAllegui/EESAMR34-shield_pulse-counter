@@ -214,62 +214,60 @@ $EndComp
 $Comp
 L Device:R R2
 U 1 1 5F589973
-P 3800 7100
-F 0 "R2" H 3870 7146 50  0000 L CNN
-F 1 "220Kohm" H 3870 7055 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3730 7100 50  0001 C CNN
-F 3 "~" H 3800 7100 50  0001 C CNN
-	1    3800 7100
+P 3800 7150
+F 0 "R2" H 3870 7196 50  0000 L CNN
+F 1 "220Kohm" H 3870 7105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3730 7150 50  0001 C CNN
+F 3 "~" H 3800 7150 50  0001 C CNN
+	1    3800 7150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1
+L Device:C C2
 U 1 1 5F589979
-P 3350 7100
-F 0 "C1" H 3465 7146 50  0000 L CNN
-F 1 "0.01uF" H 3465 7055 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3388 6950 50  0001 C CNN
-F 3 "~" H 3350 7100 50  0001 C CNN
-	1    3350 7100
+P 3350 7150
+F 0 "C2" H 3465 7196 50  0000 L CNN
+F 1 "0.01uF" H 3465 7105 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3388 7000 50  0001 C CNN
+F 3 "~" H 3350 7150 50  0001 C CNN
+	1    3350 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 5F58997F
-P 3350 7350
-F 0 "#PWR0102" H 3350 7100 50  0001 C CNN
-F 1 "GND" H 3355 7177 50  0000 C CNN
-F 2 "" H 3350 7350 50  0001 C CNN
-F 3 "" H 3350 7350 50  0001 C CNN
-	1    3350 7350
+P 3350 7400
+F 0 "#PWR0102" H 3350 7150 50  0001 C CNN
+F 1 "GND" H 3355 7227 50  0000 C CNN
+F 2 "" H 3350 7400 50  0001 C CNN
+F 3 "" H 3350 7400 50  0001 C CNN
+	1    3350 7400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 5F589985
-P 3800 7350
-F 0 "#PWR0103" H 3800 7100 50  0001 C CNN
-F 1 "GND" H 3805 7177 50  0000 C CNN
-F 2 "" H 3800 7350 50  0001 C CNN
-F 3 "" H 3800 7350 50  0001 C CNN
-	1    3800 7350
+P 3800 7400
+F 0 "#PWR0103" H 3800 7150 50  0001 C CNN
+F 1 "GND" H 3805 7227 50  0000 C CNN
+F 2 "" H 3800 7400 50  0001 C CNN
+F 3 "" H 3800 7400 50  0001 C CNN
+	1    3800 7400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3800 6950 3800 6850
 Wire Wire Line
 	4100 6850 3800 6850
 Connection ~ 3800 6850
 $Comp
 L Connector:Conn_01x02_Male J3
 U 1 1 5F58999E
-P 900 6850
-F 0 "J3" H 1000 7100 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 1000 7000 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 900 6850 50  0001 C CNN
-F 3 "~" H 900 6850 50  0001 C CNN
-	1    900  6850
-	1    0    0    -1  
+P 900 6950
+F 0 "J3" H 1000 6600 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1000 6700 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 900 6950 50  0001 C CNN
+F 3 "~" H 900 6950 50  0001 C CNN
+	1    900  6950
+	1    0    0    1   
 $EndComp
 $Comp
 L 4xxx:4069 U2
@@ -285,12 +283,12 @@ $EndComp
 $Comp
 L 4xxx:4069 U2
 U 6 1 5F5899AA
-P 4400 6850
-F 0 "U2" H 4400 7167 50  0000 C CNN
-F 1 "4069" H 4400 7076 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 4400 6850 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf" H 4400 6850 50  0001 C CNN
-	6    4400 6850
+P 2500 6850
+F 0 "U2" H 2500 7167 50  0000 C CNN
+F 1 "4069" H 2500 7076 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2500 6850 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf" H 2500 6850 50  0001 C CNN
+	6    2500 6850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -321,8 +319,6 @@ F 3 "~" H 1800 6350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1800 6050 1800 6200
-Wire Wire Line
-	3350 6950 3350 6850
 Wire Wire Line
 	3350 6850 3800 6850
 Wire Wire Line
@@ -366,7 +362,7 @@ Text Label 1100 6850 0    50   ~ 0
 Pulse
 Text Label 1100 6950 0    50   ~ 0
 GND
-Text Notes 2600 8100 0    50   ~ 0
+Text Notes 2600 8150 0    50   ~ 0
 Calculo de tiempo para retardo a la desconexion.\nValores para 1ms (experimentalmente):\nC1=0.1uF\nR2=22Kohm\n\n[(teorico) T=0.8 * C * R]
 Text Notes 750  6300 0    50   ~ 0
 Max R1 = Vcc/0.01\nPara el medidor Dresser
@@ -417,9 +413,9 @@ Wire Wire Line
 	3200 6850 3350 6850
 Connection ~ 3350 6850
 Wire Wire Line
-	3350 7250 3350 7350
+	3350 7300 3350 7400
 Wire Wire Line
-	3800 7250 3800 7350
+	3800 7300 3800 7400
 Wire Wire Line
 	4700 7300 4800 7300
 Wire Wire Line
@@ -501,10 +497,10 @@ $EndComp
 Wire Wire Line
 	900  4250 900  4400
 $Comp
-L Device:R R6
+L Device:R R4
 U 1 1 5F9E34ED
 P 900 4650
-F 0 "R6" H 970 4696 50  0000 L CNN
+F 0 "R4" H 970 4696 50  0000 L CNN
 F 1 "100K" H 970 4605 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 830 4650 50  0001 C CNN
 F 3 "~" H 900 4650 50  0001 C CNN
@@ -520,10 +516,10 @@ Wire Wire Line
 Text Label 900  3850 2    50   ~ 0
 VBAT
 $Comp
-L Device:R R5
+L Device:R R3
 U 1 1 5F9D6B32
 P 900 4100
-F 0 "R5" H 970 4146 50  0000 L CNN
+F 0 "R3" H 970 4146 50  0000 L CNN
 F 1 "330K" H 970 4055 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 830 4100 50  0001 C CNN
 F 3 "~" H 900 4100 50  0001 C CNN
@@ -537,7 +533,7 @@ U 2 1 5F93C9B5
 P 8900 7400
 F 0 "U2" H 8900 7717 50  0000 C CNN
 F 1 "4069" H 8900 7626 50  0000 C CNN
-F 2 "" H 8900 7400 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 8900 7400 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf" H 8900 7400 50  0001 C CNN
 	2    8900 7400
 	1    0    0    -1  
@@ -548,7 +544,7 @@ U 4 1 5F93E22D
 P 5100 7300
 F 0 "U2" H 5100 7617 50  0000 C CNN
 F 1 "4069" H 5100 7526 50  0000 C CNN
-F 2 "" H 5100 7300 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 5100 7300 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf" H 5100 7300 50  0001 C CNN
 	4    5100 7300
 	1    0    0    -1  
@@ -559,12 +555,12 @@ NoConn ~ 9200 6900
 $Comp
 L 4xxx:4069 U2
 U 5 1 5F93F0BA
-P 2500 6850
-F 0 "U2" H 2500 7167 50  0000 C CNN
-F 1 "4069" H 2500 7076 50  0000 C CNN
-F 2 "" H 2500 6850 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf" H 2500 6850 50  0001 C CNN
-	5    2500 6850
+P 4400 6850
+F 0 "U2" H 4400 7167 50  0000 C CNN
+F 1 "4069" H 4400 7076 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4400 6850 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf" H 4400 6850 50  0001 C CNN
+	5    4400 6850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -604,10 +600,10 @@ Text Label 5950 7050 0    50   ~ 0
 SPI_MOSI
 NoConn ~ 2200 1250
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 5FA241A0
 P 1800 7150
-F 0 "C?" H 1915 7196 50  0000 L CNN
+F 0 "C1" H 1915 7196 50  0000 L CNN
 F 1 "0.1uF" H 1915 7105 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1838 7000 50  0001 C CNN
 F 3 "~" H 1800 7150 50  0001 C CNN
@@ -615,10 +611,10 @@ F 3 "~" H 1800 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0106
 U 1 1 5FA26127
 P 1800 7350
-F 0 "#PWR?" H 1800 7100 50  0001 C CNN
+F 0 "#PWR0106" H 1800 7100 50  0001 C CNN
 F 1 "GND" H 1805 7177 50  0000 C CNN
 F 2 "" H 1800 7350 50  0001 C CNN
 F 3 "" H 1800 7350 50  0001 C CNN
@@ -631,4 +627,10 @@ Wire Wire Line
 	1800 6850 1800 7000
 Wire Wire Line
 	1800 7300 1800 7350
+Wire Wire Line
+	3350 6850 3350 7000
+Wire Wire Line
+	3800 6850 3800 7000
+NoConn ~ 950  1750
+NoConn ~ 950  1850
 $EndSCHEMATC
