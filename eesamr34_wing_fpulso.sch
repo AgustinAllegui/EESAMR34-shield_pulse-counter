@@ -259,17 +259,6 @@ Wire Wire Line
 	4100 6850 3800 6850
 Connection ~ 3800 6850
 $Comp
-L Connector:Conn_01x02_Male J3
-U 1 1 5F58999E
-P 900 6950
-F 0 "J3" H 1000 6600 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 1000 6700 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 900 6950 50  0001 C CNN
-F 3 "~" H 900 6950 50  0001 C CNN
-	1    900  6950
-	1    0    0    1   
-$EndComp
-$Comp
 L 4xxx:4069 U2
 U 1 1 5F5899A4
 P 8900 6900
@@ -598,7 +587,6 @@ F 3 "" H 8600 7900 50  0001 C CNN
 $EndComp
 Text Label 5950 7050 0    50   ~ 0
 SPI_MOSI
-NoConn ~ 2200 1250
 $Comp
 L Device:C C1
 U 1 1 5FA241A0
@@ -633,4 +621,19 @@ Wire Wire Line
 	3800 6850 3800 7000
 NoConn ~ 950  1750
 NoConn ~ 950  1850
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 5FBAF14F
+P 900 6850
+F 0 "J1" H 872 6782 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 872 6873 50  0000 R CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 900 6850 50  0001 C CNN
+F 3 "~" H 900 6850 50  0001 C CNN
+	1    900  6850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1150 6750 1100 6750
+Text Label 1150 6750 0    50   ~ 0
+VBUS
 $EndSCHEMATC
